@@ -31,7 +31,7 @@ Lets see how LibreOffice can be installed in Ubuntu and Debian based systems. Cu
 **Screenshot**
 
 <p style="text-align:center;">
-  <img class="aligncenter" title="Screenshot LibreOffice" src="http://vaamarnath.co.in/wp-blog/wp-content/uploads/2011/02/lo_startcenter1.png?w=300" alt="" width="450" height="360" />
+  <img class="aligncenter" title="Screenshot LibreOffice" src="https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2011/02/lo_startcenter1.png?w=300" alt="" width="450" height="360" />
 </p>
 
 <p style="text-align:left;">

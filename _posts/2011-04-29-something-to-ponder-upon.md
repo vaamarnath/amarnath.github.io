@@ -23,7 +23,7 @@ categories:
 ---
 <p id="top" />
 We often hear about the fact that a human spends almost one third of his lifetime for sleeping. But when I think about how I have spent last 12 months, a striking fact projects out. Its only about an year ago, I bought a new laptop. When going through the system/disk usage information about my system few days back, I was stunned to see the results. (
-<a title="diskuse" href="http://vaamarnath.co.in/wp-blog/wp-content/uploads/2011/04/diskuse.png" target="_blank">see here</a>).</p> 
+<a title="diskuse" href="https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2011/04/diskuse.png" target="_blank">see here</a>).</p> 
 
 The result indicates that my laptop was switched on for almost one third of an year. This really makes me think over how I had spent my life over the last 365 days. It also implicitly explains the campus life in the fourth year at NIT Calicut. With really few number of papers, just one lab course and a major project to accomplish, its just a matter of fact that we all end up with more than 8 hours to spare a day. Its ones own discretion to decide how to spend that free time. I ended up using the laptop, browsing net, downloading high-definition videos and spending sometime over Linux stuff. I can certainly say that I am addicted to internet and usage of laptops. Thinking over the effects it had on me, leads me to realise of what I have missed and what I could have done to make myself feel better and happier for the past one year.
 </p>

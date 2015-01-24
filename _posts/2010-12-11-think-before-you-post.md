@@ -22,7 +22,7 @@ I feel the youth nowadays, never care about the matter, but just want to see how
 </p>
 
 <p style="text-align: center;">
-  <a href="http://vaamarnath.co.in/wp-blog/wp-content/uploads/2010/12/2010.png"><img class="aligncenter size-full wp-image-307" title="Facebook infiltrations" src="http://vaamarnath.co.in/wp-blog/wp-content/uploads/2010/12/2010.png" alt="" width="581" height="479" /></a>
+  <a href="https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2010/12/2010.png"><img class="aligncenter size-full wp-image-307" title="Facebook infiltrations" src="https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2010/12/2010.png" alt="" width="581" height="479" /></a>
 </p>
 
 <p style="text-align: left;">

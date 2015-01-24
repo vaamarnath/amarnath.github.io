@@ -16,7 +16,7 @@ categories:
 ---
 <p id="top" />
 
-[<img class="aligncenter size-full wp-image-423" title="Ragam" src="http://vaamarnath.co.in/wp-blog/wp-content/uploads/2011/02/170742_181748391859885_180399488661442_488412_3752762_o.jpg" alt="" width="497" height="279" />][1]The Ragam &#8217;11 promo video says it all. The second largest cultural fest in south India comes with a bang this time. The Golden Jubilee Edition, Ragam &#8217;11!</p> 
+[<img class="aligncenter size-full wp-image-423" title="Ragam" src="https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2011/02/170742_181748391859885_180399488661442_488412_3752762_o.jpg" alt="" width="497" height="279" />][1]The Ragam &#8217;11 promo video says it all. The second largest cultural fest in south India comes with a bang this time. The Golden Jubilee Edition, Ragam &#8217;11!</p> 
 
 
 
@@ -26,7 +26,7 @@ The main attractions this time for Ragam are several. The <a class="zem_slink" t
 
 PS: More info available at [www.ragam.org.in][2]
 
-[<img class="aligncenter size-full wp-image-426" title="Ragam Proshow" src="http://vaamarnath.co.in/wp-blog/wp-content/uploads/2011/02/175819_190108607690530_180399488661442_538989_1816893_o.jpg" alt="" width="497" height="351" />][3]
+[<img class="aligncenter size-full wp-image-426" title="Ragam Proshow" src="https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2011/02/175819_190108607690530_180399488661442_538989_1816893_o.jpg" alt="" width="497" height="351" />][3]
 
 <h6 class="zemanta-related-title" style="font-size: 1em;">
   Related Articles
@@ -38,6 +38,6 @@ PS: More info available at [www.ragam.org.in][2]
   </li>
 </ul>
 
- [1]: http://vaamarnath.co.in/wp-blog/wp-content/uploads/2011/02/170742_181748391859885_180399488661442_488412_3752762_o.jpg
+ [1]: https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2011/02/170742_181748391859885_180399488661442_488412_3752762_o.jpg
  [2]: http://www.ragam.org.in "www.ragam.org.in"
- [3]: http://vaamarnath.co.in/wp-blog/wp-content/uploads/2011/02/175819_190108607690530_180399488661442_538989_1816893_o.jpg
+ [3]: https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2011/02/175819_190108607690530_180399488661442_538989_1816893_o.jpg
