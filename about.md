@@ -30,4 +30,4 @@ You can download my [CV][1] here to get more info on my professional background.
 
 Check out my <a title="http://about.me/vaamarnath" href="http://about.me/vaamarnath" target="_blank">http://about.me/vaamarnath</a> also.
 
- [1]: https://cdn.rawgit.com/vaamarnath/vaamarnath.github.io/master/content/uploads/2010/07/short.pdf
+ [1]: https://raw.githubusercontent.com/vaamarnath/vaamarnath.github.io/master/content/2010/07/short.pdf
