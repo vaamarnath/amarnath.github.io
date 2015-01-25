@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Moving to Jekyll
+summary: The big step for re-initiation to blogging.
 ---
 This blog has been lying inactive for months now and I have been trying to move
 away from my self hosted Wordpress site. Maintaining the Wordpress is a bit tricky.
