@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Year with a difference&#58; 2014 
-summary: Experiences before IITG and after.
+title: Year with a difference 
+summary: Afterthoughts - 2014.
 categories: iitg life nitc
 ---
 
