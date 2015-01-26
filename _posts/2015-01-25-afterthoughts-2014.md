@@ -2,7 +2,6 @@
 layout: post
 title: Year with a difference 
 summary: Afterthoughts - 2014.
-categories: iitg life nitc
 ---
 
 This post has been long due. I have been putting it away for quite sometime.
