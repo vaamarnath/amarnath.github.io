@@ -16,6 +16,7 @@ Step 1. Install hostapd, isc-dhcp-server, privoxy.
 
 Step 2. Configure hostapd to setup your WiFi network. Add the following to your `/etc/hostapd/hostapd.conf`.  
 `interface=wlan0
+
 driver=nl80211
 ssid=YourWifiSSID
 hw_mode=g
