@@ -15,25 +15,25 @@ Step 1. Install hostapd, isc-dhcp-server, privoxy.
 </p>
 
 Step 2. Configure hostapd to setup your WiFi network. Add the following to your `/etc/hostapd/hostapd.conf`.  
-`interface=wlan0<br />
-driver=nl80211<br />
-ssid=YourWifiSSID<br />
-hw_mode=g<br />
-channel=1<br />
-macaddr_acl=0<br />
-auth_algs=1<br />
-ignore_broadcast_ssid=0<br />
-wpa=3<br />
-wpa_passphrase=YourPassPhrase<br />
-wpa_key_mgmt=WPA-PSK<br />
-wpa_pairwise=TKIP<br />
+`interface=wlan0
+driver=nl80211
+ssid=YourWifiSSID
+hw_mode=g
+channel=1
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wpa=3
+wpa_passphrase=YourPassPhrase
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=TKIP
 rsn_pairwise=CCMP`
 
 Step 3. Configure your dhcp server (only if you need your wifi have dynamically allocated IPs). Add the following lines to your `/etc/dhcp/dhcpd.conf`.  
-`subnet 10.0.0.0 netmask 255.255.255.0 {<br />
-range 10.0.0.2 10.0.0.10;<br />
-option domain-name-servers 8.8.4.4, 8.8.8.8;<br />
-option routers 10.0.0.1;<br />
+`subnet 10.0.0.0 netmask 255.255.255.0 {
+range 10.0.0.2 10.0.0.10;
+option domain-name-servers 8.8.4.4, 8.8.8.8;
+option routers 10.0.0.1;
 }`
 
 Step 4. Configure privoxy (optional: needed if your internet is chained to other proxies with authentication).  
@@ -46,19 +46,19 @@ Step 5. Configure privoxy&#8217;s actions to add HTTP header for proxy authentic
 The easiest method to figure out your base64 value of username/password is use some tool to analyse headers of outgoing HTTP traffic from your browser and pick the value of &#8220;Proxy-Authentication&#8221; key.
 
 Step 6. Trigger the launch of all services. Use the following shell script to do the same. The script takes param1 as the interface where the internet is being shared and param2 as the interface where internet is connected. This enable the machine to forward packets from one interface to another and uses masquerade to do the same.  
-`<br />
-/etc/init.d/privoxy restart<br />
-nmcli nm wifi off<br />
-rfkill unblock wlan<br />
-ifconfig $1 up 10.0.0.1 netmask 255.255.255.0<br />
-sleep 2<br />
-#Enable NAT<br />
-iptables --flush<br />
-iptables --table nat --flush<br />
-iptables --delete-chain<br />
-iptables --table nat --delete-chain<br />
-iptables --table nat --append POSTROUTING --out-interface $2 -j MASQUERADE<br />
-iptables --append FORWARD --in-interface $1 -j ACCEPT<br />
+`
+/etc/init.d/privoxy restart
+nmcli nm wifi off
+rfkill unblock wlan
+ifconfig $1 up 10.0.0.1 netmask 255.255.255.0
+sleep 2
+#Enable NAT
+iptables --flush
+iptables --table nat --flush
+iptables --delete-chain
+iptables --table nat --delete-chain
+iptables --table nat --append POSTROUTING --out-interface $2 -j MASQUERADE
+iptables --append FORWARD --in-interface $1 -j ACCEPT
 sysctl -w net.ipv4.ip_forward=1`
 
 service hostapd restart  
